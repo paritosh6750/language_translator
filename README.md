@@ -1,2 +1,31 @@
-# language_translator
-A desktop application with a clean GUI that translates words, sentences, or paragraphs between multiple languages. Built with Tkinter, Googletrans, and TextBlob, this project lets users select source and target languages from dropdowns, type or paste text, and instantly get the translation in the chosen language.
+# 🌐 Language Translation using Python, Tkinter & Google APIs
+A simple yet powerful **Python desktop application** to translate text between multiple languages.  
+Built with **Tkinter** for the GUI, **Googletrans** for language data, and **TextBlob** for processing text, this app can translate words, sentences, or paragraphs between any supported languages.
+
+---
+
+## 📌 Features
+- **Multi-language Support** – Translate between dozens of languages supported by Googletrans.
+- **User-Friendly Interface** – Built with Tkinter for a clean, simple, and interactive GUI.
+- **Two-way Translation** – Select source and destination languages from dropdown menus.
+- **Instant Results** – Quickly get translations with the click of a button.
+- **Error Handling** – Alerts the user if translation fails or input is invalid.
+
+---
+
+
+## 🛠️ Prerequisites
+Make sure you have the following installed:
+- Python 3.x
+- [Tkinter](https://wiki.python.org/moin/TkInter) (comes with Python by default)
+- [Googletrans](https://pypi.org/project/googletrans/)
+- [TextBlob](https://pypi.org/project/textblob/)
+
+Install required packages:
+```bash
+pip install tk
+pip install -U textblob
+pip install googletrans
+
+git clone https://github.com/your-username/language-translation.git
+cd language-translation
