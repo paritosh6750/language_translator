@@ -27,5 +27,5 @@ pip install tk
 pip install -U textblob
 pip install googletrans
 
-git clone https://github.com/your-username/language-translation.git
-cd language-translation
+git clone https://github.com/paritosh6750/language_translator.git
+cd language-translator
